@@ -1,0 +1,51 @@
+.teamlist{
+    margin-top: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+}
+
+.teamlist-a-tag{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    width: 150px;
+    background-color: transparent;
+    margin: 5px;
+    text-align: center;
+    transition: all 1s ease-in-out;
+    color: black;
+    
+}
+
+.teamlist-a-tag:before{
+    transition: .5s;
+    transform: scale(.9);
+    z-index: -1;
+}
+.img{
+    margin:10px ;
+    width: 70px;
+    height: 70px;
+}
+
+.teamlist-a-tag:hover:before {
+    transform: scale(1.2);
+    box-shadow: 0 0 15px #a7d129;;
+    filter: blur(3px);
+  }
+
+.teamlist-a-tag:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    color:#a7d129;
+    box-shadow: 0 0 15px #a7d129;;
+    text-shadow: 0 0 15px #a7d129;;
+}
+
+
+

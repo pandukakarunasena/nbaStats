@@ -1,0 +1,23 @@
+.main_team--container{
+    display: flex;
+    
+}
+
+.main_team--container .team__coloumn{
+    width: 50%;
+    margin:20px;
+    text-align: center;
+    
+}
+
+.main_team--container .team__coloumn .team__roster{
+    display: block;
+}
+.main_team--container  .team__roster--ul{
+    text-decoration: none;
+    list-style: none;
+}
+
+.main_team--container  .team__roster--li{
+    border: none;
+}

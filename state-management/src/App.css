@@ -1,0 +1,43 @@
+.wrapper{
+    background-size: cover;
+    margin: 50px auto; 
+    border-radius: 6px;
+    box-shadow:10px 10px 90px 10px #000000;
+    max-width: 1200px; 
+     
+    background-color:#333 ; 
+}
+
+.nav{
+    border-radius: 6px 6px 0 0;
+    color:white;
+    background-color:rgb(22, 21, 21) ;
+    opacity: 0.8;
+    min-height: 90px;
+    align-items: center;
+}
+
+.body{
+    display: flex;
+    
+}
+
+.menu{
+    padding-top: 100px;
+    width: 300px;
+    background-color: rgb(39, 37, 37);
+}
+
+.content{
+    width: 900px;
+    height: 510px;
+    background-color: #333;
+    overflow-y: scroll;
+}
+ 
+
+
+
+
+
+

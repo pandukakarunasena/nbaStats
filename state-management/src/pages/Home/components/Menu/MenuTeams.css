@@ -1,0 +1,67 @@
+.styleCard4{
+    background: linear-gradient(to bottom, hsla(219, 72%, 32%, 0.322), hsla(349, 92%, 41%, 0.729)),
+    url(steph.jpg) no-repeat center;
+    background-size: cover;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 10px 10px 50px 1px black;
+    
+    
+    
+}
+
+p{  
+    position: relative;
+    font-family: inherit;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-style: italic;
+    font-size: 4vw;
+    transition: .5s;
+    color: transparent;
+    
+
+}
+
+p:before,
+p:after
+{
+    content: attr(data-text);
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: .5s;
+    
+}
+
+p:before{
+    color: black;
+    -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 50%, 0 50%);
+    clip-path: polygon(0% 0%, 100% 0%, 100% 50%, 0 50%);
+    
+}
+
+p:hover:before{
+    color: black;
+    transform: translate(10px,-2px);
+    
+}
+
+p:after{
+        
+    -webkit-clip-path: polygon(0 50%, 100% 50%, 100% 100%, 0% 100%);
+    clip-path: polygon(0 50%, 100% 50%, 100% 100%, 0% 100%);
+    color: black;
+
+}
+p:hover:after{
+    color: black;
+    transform: translate(-10px,2px);
+
+}
+

@@ -1,0 +1,15 @@
+.style {
+    padding-left: 600px;
+}
+
+.icon{
+    padding-left: 70px;
+    color: #a7d129;
+    
+    transition:all 1s ease-in-out ;
+}
+.icon:hover{
+    color: white;
+    text-shadow: 0 0 15px #a7d129;
+    transform: scale(1.3);
+}

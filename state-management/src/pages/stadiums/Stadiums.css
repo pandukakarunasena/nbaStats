@@ -1,0 +1,31 @@
+#stadiums {
+    text-align: center;
+    border-collapse: collapse;    
+    width: 100%;
+    
+  }
+  
+#stadiums td, #stadiums th {
+    padding: 8px;
+    padding-left: 30px;
+    text-align: left;
+    border-bottom: 1px solid black;
+    
+  }
+
+#stadiums td{
+  color:white;
+}  
+  #stadiums tr:nth-child(even){}
+  
+  #stadiums tr:hover {
+    background-color:rgb(43, 41, 41);
+  }
+  
+  #stadiums th {
+    text-align: left;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    color: white;
+    font-weight: bold;
+  }

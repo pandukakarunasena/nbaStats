@@ -1,0 +1,17 @@
+.news-t{
+    font-size: 18px;
+    color: #333;
+    
+}
+
+.news-ago{
+    font-size: 13px;
+    color: #333;
+    
+}
+
+.Accordian-news{
+    display: flex;
+    justify-content: space-between;
+}
+

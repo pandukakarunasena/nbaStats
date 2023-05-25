@@ -1,0 +1,23 @@
+{
+  "name": "nba-stats-backend-server",
+  "version": "1.0.0",
+  "description": "Backend-server for nba-stats-app",
+  "main": "src/server.js",
+  "scripts": {
+    "watch": "nodemon src/server.js",
+    "start": "node src/server.js"
+  },
+  "dependencies": {
+    "axios": "^1.4.0",
+    "body-parser": "^1.19.0",
+    "concurrently": "^5.3.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "author": "",
+  "license": "ISC"
+}
